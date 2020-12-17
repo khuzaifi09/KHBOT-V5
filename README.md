@@ -1,4 +1,4 @@
-# ridhobot
+# KhuzaifiBot
 BOT WHATSAPP HP KhuzaifiGans
 
 ### Alat dan Bahan
