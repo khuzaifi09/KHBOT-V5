@@ -13,7 +13,7 @@ const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 				  
 //
-const BotName = 'KhuzaifiGans BOT 🤖'; // Nama Bot Whatsapp
+const BotName = 'KhuzaifiGans BOT 🧙'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/Khuzaifi09'; // Nama Instagramlu cok
 const whatsapplu = '6285655872206'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Kalo Lagi Ada Kuota'; // Kapan bot lu aktif
@@ -49,7 +49,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] ridho Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] KhuzaifiGans Bot Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -64,11 +64,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ridho_setiawan02`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by KhuzaifiGans`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ridho_setiawan02`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by KhuzaifiGans`)
 })
 
 conn.on('message-new', async(m) =>
